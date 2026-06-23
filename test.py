@@ -1,3 +1,4 @@
+import os
 import re
 import requests
 from bs4 import BeautifulSoup
@@ -17,7 +18,7 @@ from telegram.ext import (
 )
 
 # ================== CONFIG ==================
-BOT_TOKEN = "8504791736:AAG4K-LBCNaODtt-7ljEQ8lJtgMZoZj7Do0"
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 
 # Without @
 CHANNEL_USERNAME = "dorshegoldgallery"
