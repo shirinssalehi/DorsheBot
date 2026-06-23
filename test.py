@@ -18,7 +18,7 @@ from telegram.ext import (
 )
 
 # ================== CONFIG ==================
-BOT_TOKEN = os.environ["BOT_TOKEN"]
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8504791736:AAG4K-LBCNaODtt-7ljEQ8lJtgMZoZj7Do0")
 
 # Without @
 CHANNEL_USERNAME = "dorshegoldgallery"
